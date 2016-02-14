@@ -1,9 +1,11 @@
 /**
- * @module
- * @require Person
  * @since 23/01/2016
  * @author Michail Tsougkranis
  * @version 1.0
+ * @Description skataaaaa sou lew
+ * @module
+ * @require Person
+ * @exports User
  * @Description Exports User Class
 */
 
@@ -74,5 +76,4 @@ class User extends Person {
     }    
 }
 
-/****/
 export { User };

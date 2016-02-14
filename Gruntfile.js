@@ -55,8 +55,11 @@ module.exports = function (grunt) {
     _.each(gruntTasks, function (task) {
         grunt.loadNpmTasks(task);
     });
-
+    
+    grunt.registerTask('doc', ['jsdoc2md']);
+    grunt.registerTask('built', ['browserify']);
+    grunt.registerTask('check', ['eslint','browserify']);
+    grunt.registerTask('unitTests', ['eslint', 'karma']);        
     grunt.registerTask('default', ['browserify', 'uglify', 'eslint', 'karma', 'jsdoc2md']);
-    grunt.registerTask('unitTests', ['eslint', 'karma']);
     grunt.initConfig(config);
 };

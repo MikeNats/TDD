@@ -13,9 +13,7 @@
 ## Person
 Exports Preson Class
 
-**Since**: 23/01/2016  
-**Version**: 1.0  
-**Author:** Michail Tsougkranis  
+**Export**: Person  
 
 * [Person](#module_Person)
     * [~Person](#module_Person..Person)

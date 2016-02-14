@@ -1,8 +1,6 @@
 /**
  * @module
- * @since 23/01/2016
- * @author Michail Tsougkranis
- * @version 1.0
+ * @export Person
  * @Description Exports Preson Class
 */
 
@@ -109,7 +107,4 @@ class Person {
     }
 }
 
-/**
- * 
- */
 export { Person };

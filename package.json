@@ -1,10 +1,10 @@
 {
-  "name": "TDD-ES6",
+  "name": "UnitTestStack-ES6",
   "version": "1.0.0",
-  "description": "Generic es6 module - es6, grunt, babel, browserify, karma, jasmine, lodash, lodash, jsdoc",
+  "description": "Generic es6 unit test stack - es6, grunt, babel, browserify, karma, jasmine, lodash, lodash, jsdoc",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/MikeNats/UnitTestStack-ES6"
   },
   "main": "built/app.js",
   "scripts": {
@@ -36,8 +36,5 @@
     "karma-phantomjs-launcher": "^0.2.3",
     "lodash": "^3.10.1",
     "phantomjs": "^1.9.19"
-  },
-  "publishConfig": {
-    "registry": "https://www.myget.org/F/veprod/npm/"
   }
 }
